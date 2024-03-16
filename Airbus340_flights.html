@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="cf295f36594542699d95b5736fa12590" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_cf295f36594542699d95b5736fa12590 = echarts.init(
+            document.getElementById('cf295f36594542699d95b5736fa12590'), 'white', {renderer: 'canvas'});
+        var option_cf295f36594542699d95b5736fa12590 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6cd5\u5170\u514b\u798f",
+                    "value": [
+                        8.34,
+                        50.02,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.407526,
+                        39.90403,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u9999\u6e2f",
+                    "value": [
+                        114.173355,
+                        22.320048,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u9ed1\u5170",
+                    "value": [
+                        51.25,
+                        35.4,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u4e0a\u6d77",
+                    "value": [
+                        121.473701,
+                        31.230416,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": [
+                        113.23,
+                        23.16,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u6df1\u5733",
+                    "value": [
+                        114.07,
+                        22.62,
+                        1
+                    ]
+                },
+                {
+                    "name": "\u82cf\u9ece\u4e16",
+                    "value": [
+                        8.32,
+                        47.22,
+                        1
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "grey",
+                "symbol": "arrow",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6cd5\u5170\u514b\u798f->\u5317\u4eac",
+                    "coords": [
+                        [
+                            8.34,
+                            50.02
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u6cd5\u5170\u514b\u798f->\u9999\u6e2f",
+                    "coords": [
+                        [
+                            8.34,
+                            50.02
+                        ],
+                        [
+                            114.173355,
+                            22.320048
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u9ed1\u5170->\u5317\u4eac",
+                    "coords": [
+                        [
+                            51.25,
+                            35.4
+                        ],
+                        [
+                            116.407526,
+                            39.90403
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u9ed1\u5170->\u4e0a\u6d77",
+                    "coords": [
+                        [
+                            51.25,
+                            35.4
+                        ],
+                        [
+                            121.473701,
+                            31.230416
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u9ed1\u5170->\u5e7f\u5dde",
+                    "coords": [
+                        [
+                            51.25,
+                            35.4
+                        ],
+                        [
+                            113.23,
+                            23.16
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5fb7\u9ed1\u5170->\u6df1\u5733",
+                    "coords": [
+                        [
+                            51.25,
+                            35.4
+                        ],
+                        [
+                            114.07,
+                            22.62
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u82cf\u9ece\u4e16->\u9999\u6e2f",
+                    "coords": [
+                        [
+                            8.32,
+                            47.22
+                        ],
+                        [
+                            114.173355,
+                            22.320048
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u82cf\u9ece\u4e16->\u4e0a\u6d77",
+                    "coords": [
+                        [
+                            8.32,
+                            47.22
+                        ],
+                        [
+                            121.473701,
+                            31.230416
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u7a7a\u5ba2A340\u6267\u98de\u4e2d\u56fd\u822a\u7ebf",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_cf295f36594542699d95b5736fa12590.setOption(option_cf295f36594542699d95b5736fa12590);
+    </script>
+</body>
+</html>
