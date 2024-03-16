@@ -8,4 +8,4 @@
 
 [恩施机场出港航线图](https://xueweiyang209.github.io/enshi_navigable_citys)
 
-[空客A340执飞中国航线图-暂无法打开]()
+[空客A340执飞中国航线图](https://xueweiyang209.github.io/Airbus340_flights.html)
