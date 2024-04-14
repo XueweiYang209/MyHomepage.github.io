@@ -28,4 +28,4 @@
 
 在本作业中，我通过form表单将用户输入的内容传送给必应，并实现了用必应进行搜索。另外我还设置了背景图片和“Bing”logo，使此“换皮浏览器”的样式更加好看。
 
-[“自定义”的必应搜索](https://xueweiyang209.github.io/bing_research.html)
+[“自定义”的必应搜索](https://xueweiyang209.github.io/bing_search.html)
